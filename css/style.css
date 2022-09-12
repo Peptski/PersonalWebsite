@@ -3,7 +3,7 @@
 /****************/
 
 .hero {
-	height: 100vh;
+	height: 80vh;
 	width: 100vw;
 	background-color: #01283c;
 	display: flex;
@@ -28,31 +28,53 @@
 	justify-content: center;
 	align-items: center;
 	transition: all 0.3s;
-	color: #013550;
+	color: #359dd2;
 	background-color: #001a28;
 	font-size: 3.6rem;
 }
 
 .nav__icon:hover {
 	color: #001a28;
-	background-color: #013550;
+	background-color: #359dd2;
+}
+
+.hero__name {
+	display: flex;
+	flex-direction: column;
+	height: 10rem;
+	margin: 20rem 0 0 26.4rem;
+}
+
+.hero__name--title {
+	font-size: 5.2rem;
+	color: #b3daee;
+	font-weight: 700;
+}
+
+.hero__name--role {
+	font-size: 2.4rem;
+	color: #359dd2;
+	font-weight: 300;
 }
 
 .hero__activity {
-	border-radius: 1.2rem;
-	width: 100rem;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	margin-top: 20rem;
 	overflow: hidden;
 }
 
 .hero__activity--chart {
 	background-color: #ffffff;
+	border-radius: 1.2rem;
 	width: 100rem;
 	padding: 0.8rem;
 }
 
-/***********************/
-/* GENEREAL COMPONENTS */
-/***********************/
+/******************/
+/* SKILLS SECTION */
+/******************/
 
 /***********************/
 /* GENEREAL COMPONENTS */
