@@ -1,0 +1,39 @@
+/********************/
+/* GENEREAL DEFAULT */
+/********************/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body::-webkit-scrollbar {
+	display: none;
+}
+
+body {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	font-family: "Inter", sans-serif;
+	line-height: 1;
+	font-weight: 400;
+	color: #555;
+	overflow-x: hidden;
+}
+
+ion-icon {
+	pointer-events: none;
+}
+
+a {
+	all: unset;
+}
+
+/***********************/
+/* GENEREAL COMPONENTS */
+/***********************/
