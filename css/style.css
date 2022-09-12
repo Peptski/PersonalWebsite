@@ -36,6 +36,8 @@
 .nav__icon:hover {
 	color: #001a28;
 	background-color: #359dd2;
+	box-shadow: 0 0 0.4rem 0.2rem #000d14;
+	cursor: pointer;
 }
 
 .hero__name {
@@ -61,14 +63,14 @@
 	width: 100vw;
 	display: flex;
 	justify-content: center;
-	margin-top: 15rem;
+	margin-top: 8.2rem;
 	overflow: hidden;
 }
 
 .hero__activity--chart {
 	background-color: #ffffff;
 	border-radius: 1.2rem;
-	width: 100rem;
+	width: 120rem;
 	padding: 0.8rem;
 }
 
@@ -99,7 +101,7 @@
 
 .skills__icon:hover {
 	transform: translateY(-10%);
-	background-color: #014264;
+	background-color: #014f77;
 	box-shadow: 0 0 1.2rem 0.4rem #000d14;
 }
 
@@ -109,22 +111,87 @@
 	overflow: hidden;
 }
 
-/***********************/
-/* GENEREAL COMPONENTS */
-/***********************/
+/********************/
+/* PROJECTS SECTION */
+/********************/
 
-/***********************/
-/* GENEREAL COMPONENTS */
-/***********************/
+.projects {
+	padding-top: 6.4rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 4.8rem;
+	background-color: #014264;
+	padding-bottom: 10rem;
+}
 
-/***********************/
-/* GENEREAL COMPONENTS */
-/***********************/
+.projects__item {
+	display: flex;
+	align-items: center;
+	gap: 0.8rem;
+}
 
-/***********************/
-/* GENEREAL COMPONENTS */
-/***********************/
+.projects__item--img {
+	width: 47.6rem;
+	height: 24rem;
+	object-fit: contain;
+	transition: all 0.3s;
+}
 
-/***********************/
-/* GENEREAL COMPONENTS */
-/***********************/
+.projects__item--img:hover {
+	transform: scale(2);
+	box-shadow: 0 0 0.8rem 0.2rem #000d14;
+}
+
+.projects__item__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	width: 48rem;
+	padding: 1.8rem;
+}
+
+.projects__item__content__text {
+	display: flex;
+	flex-direction: column;
+	gap: 1.2rem;
+}
+.projects__item__content--title {
+	font-size: 3.8rem;
+	font-weight: 800;
+	color: #e6f3f9;
+}
+.projects__item__content--desc {
+	background-color: #01283c;
+	color: #b3daee;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.2;
+	padding: 1.6rem;
+	border-radius: 1.2rem;
+}
+.projects__item__content--important {
+	color: #0284c7;
+	font-weight: 600;
+}
+.projects__item__content__buttons {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 0.8rem;
+}
+
+.button {
+	font-size: 2.4rem;
+	font-weight: 700;
+	padding: 1.2rem 3.6rem;
+	border-radius: 0.8rem;
+	background-color: #01283c;
+	color: #67b5dd;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: #67b5dd;
+	color: #01283c;
+}
