@@ -63,8 +63,8 @@
 	width: 100vw;
 	display: flex;
 	justify-content: center;
-	margin-top: 8.2rem;
 	overflow: hidden;
+	margin: auto 0;
 }
 
 .hero__activity--chart {

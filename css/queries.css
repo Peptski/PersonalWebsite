@@ -1,0 +1,59 @@
+/***************************************/
+/* BELOW 1440p (Large laptop) */
+/***************************************/
+
+@media (max-width: 90em) {
+	html {
+		font-size: 46.875%;
+	}
+}
+
+/***************************************/
+/* BELOW 1024px (Small Laptop)*/
+/***************************************/
+
+@media (max-width: 64em) {
+	html {
+		font-size: 31.25%;
+	}
+}
+
+/***************************************/
+/* BELOW 768px (Mobile)*/
+/***************************************/
+
+@media (max-width: 47em) {
+	html {
+		font-size: 20%;
+	}
+
+	.skills {
+		padding: 0;
+	}
+
+	.hero__activity--chart {
+		width: 100rem;
+	}
+
+	.hero__name {
+		margin: 0;
+		height: 50%;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.projects__item--img {
+		width: 47.6rem;
+		height: 24rem;
+	}
+}
+
+/***************************************/
+/* BELOW 304px (Small mobile)*/
+/***************************************/
+
+@media (max-width: 24em) {
+	html {
+		font-size: 15%;
+	}
+}
