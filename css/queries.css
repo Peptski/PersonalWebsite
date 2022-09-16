@@ -62,11 +62,12 @@
 
 @media (max-width: 47em) {
 	.skills {
-		padding: 0;
+		padding: 2rem;
 		display: grid;
 		justify-items: center;
 		grid-template-rows: 1fr 1fr;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
+		height: 30vh;
 	}
 
 	.hero__name {
@@ -96,11 +97,7 @@
 	}
 
 	.hero {
-		height: 70vh;
-	}
-
-	.skills {
-		height: 30vh;
+		height: 65vh;
 	}
 
 	.projects__item__content {
@@ -116,6 +113,10 @@
 /***************************************/
 
 @media (max-width: 24em) {
+	.projects__item__content--title {
+		font-size: 3.2rem;
+	}
+
 	.hero__name--title {
 		font-size: 5.4rem;
 	}
