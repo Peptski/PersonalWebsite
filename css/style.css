@@ -136,6 +136,7 @@
 	height: 36rem;
 	object-fit: contain;
 	transition: all 0.3s;
+	border-radius: 1.2rem;
 }
 
 .projects__item--img:hover {
