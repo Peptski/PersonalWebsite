@@ -74,6 +74,15 @@
 	padding: 0.8rem;
 }
 
+#img-pre {
+	display: inline;
+	filter: blur(0.5rem);
+}
+
+#img-post {
+	display: none;
+}
+
 /******************/
 /* SKILLS SECTION */
 /******************/
